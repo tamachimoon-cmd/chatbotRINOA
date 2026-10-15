@@ -1,0 +1,26 @@
+# Marques Security Baseline
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+uploads/
+node_modules/
+dist/
+build/
+.next/
+coverage/
+__pycache__/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
